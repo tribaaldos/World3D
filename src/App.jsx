@@ -3,8 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import { Canvas } from '@react-three/fiber'
 import { Sky } from '@react-three/drei'
-import Experience from '../../World3D/src/World/World';
-
+import Experience from './World/World'
 function App() {
   const [count, setCount] = useState(0)
 
